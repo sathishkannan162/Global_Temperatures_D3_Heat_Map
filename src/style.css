@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Dosis:wght@200;400&family=Inter+Tight:wght@100;200;300&family=Merriweather:wght@300;400&family=Montserrat:wght@100;200;300;400&family=Open+Sans:wght@300&family=Poppins:wght@200;300;400&family=Raleway:wght@100;200;300;400&family=Roboto&display=swap");
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  font-family: "montserrat", sans-serif, "poppins", "open sans";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+body #chart-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+body #chart-container #title {
+  text-align: center;
+  font-size: 1.6rem;
+  margin: 0;
+  margin-top: 25px;
+  position: absolute;
+  top: 0px;
+  left: 35%;
+}
+body #chart-container #description {
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 30px auto;
+  position: absolute;
+  z-index: 1;
+  left: 40%;
+  top: 45px;
+}
+body #chart-container #heat-map {
+  margin: 0;
+  background-color: white;
+  width: 100%;
+  padding: 0;
+}
+body #chart-container #heat-map svg .cell {
+  opacity: 1;
+}
+body #chart-container #heat-map #tooltip {
+  background-color: #1a1a1a;
+  width: auto;
+  min-width: 120px;
+  position: absolute;
+  pointer-events: none;
+  height: auto;
+  text-align: center;
+  font-size: 1.3rem;
+  color: white;
+  border-radius: 8px;
+  padding: 5px;
+}
+body #chart-container #heat-map #overlay {
+  position: absolute;
+  background-color: transparent;
+  z-index: 2;
+  pointer-events: none;
+  border: 1px solid black;
+  border-width: 2px 1px 1px 2px;
+}
+
+@media (max-width: 850px) {
+  #title {
+    font-size: 1.2rem;
+  }
+  #description {
+    font-size: 0.8rem;
+    left: 360px;
+  }
+}/*# sourceMappingURL=style.css.map */
