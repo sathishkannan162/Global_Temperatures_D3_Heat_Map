@@ -8,7 +8,7 @@ You can use the heat map for other your own data by customizing your data simila
 
 ![Heat map tooltip gif animation](dist/images/heat_map.gif)
 
-Check out the deployed page at Netlify:
+Check out the deployed page at Netlify: [https://harmonious-semifreddo-43f2df.netlify.app/](https://harmonious-semifreddo-43f2df.netlify.app/)
 
 **Attribution:** This chart is an exact replica of freecodecamp project at the url: [https://codepen.io/freeCodeCamp/full/GrZVaM](https://codepen.io/freeCodeCamp/full/GrZVaM) and it was done as a part of coursework of data visualisation on freecodecamp.
 
