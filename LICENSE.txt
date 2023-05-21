@@ -1,6 +1,7 @@
 The MIT License (MIT)
 
-Copyright (c) 2022 Sathish Kannan M (https://codepen.io/sathishkannan/pen/bGMLJjE)
+Copyright (c) 2023 Sathish Kannan M (https://codepen.io/sathishkannan/pen/zYjWpaP)
+Fork of an original work D3 Heat Map (https://codepen.io/sathishkannan/pen/zYjWpaP)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
